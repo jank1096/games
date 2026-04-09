@@ -15,8 +15,51 @@
 
         <div class="coin-wrapper">
             <div class="coin" id="coin">
-                <div class="coin-face coin-heads">H</div>
-                <div class="coin-face coin-tails">T</div>
+                <div class="coin-face coin-heads">
+                    <svg class="coin-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Binary ring -->
+                        <text x="50" y="16" text-anchor="middle" font-size="5" fill="#d0d0d0" font-family="monospace">01101001 · 10110</text>
+                        <text x="50" y="90" text-anchor="middle" font-size="5" fill="#d0d0d0" font-family="monospace">11010 · 01001101</text>
+                        <!-- Circuit node -->
+                        <circle cx="50" cy="50" r="18" stroke="#0a0a0a" stroke-width="2" fill="none"/>
+                        <circle cx="50" cy="50" r="6" fill="#0a0a0a"/>
+                        <!-- Circuit lines -->
+                        <line x1="50" y1="32" x2="50" y2="22" stroke="#0a0a0a" stroke-width="1.5"/>
+                        <line x1="50" y1="68" x2="50" y2="78" stroke="#0a0a0a" stroke-width="1.5"/>
+                        <line x1="32" y1="50" x2="22" y2="50" stroke="#0a0a0a" stroke-width="1.5"/>
+                        <line x1="68" y1="50" x2="78" y2="50" stroke="#0a0a0a" stroke-width="1.5"/>
+                        <!-- Corner nodes -->
+                        <circle cx="50" cy="22" r="2" fill="#0a0a0a"/>
+                        <circle cx="50" cy="78" r="2" fill="#0a0a0a"/>
+                        <circle cx="22" cy="50" r="2" fill="#0a0a0a"/>
+                        <circle cx="78" cy="50" r="2" fill="#0a0a0a"/>
+                        <!-- Diagonal lines -->
+                        <line x1="37" y1="37" x2="28" y2="28" stroke="#0a0a0a" stroke-width="1" opacity="0.4"/>
+                        <line x1="63" y1="37" x2="72" y2="28" stroke="#0a0a0a" stroke-width="1" opacity="0.4"/>
+                        <line x1="37" y1="63" x2="28" y2="72" stroke="#0a0a0a" stroke-width="1" opacity="0.4"/>
+                        <line x1="63" y1="63" x2="72" y2="72" stroke="#0a0a0a" stroke-width="1" opacity="0.4"/>
+                    </svg>
+                </div>
+                <div class="coin-face coin-tails">
+                    <svg class="coin-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <!-- Binary ring -->
+                        <text x="50" y="16" text-anchor="middle" font-size="5" fill="#333" font-family="monospace">10010110 · 01101</text>
+                        <text x="50" y="90" text-anchor="middle" font-size="5" fill="#333" font-family="monospace">01011 · 10110010</text>
+                        <!-- Hexagon -->
+                        <polygon points="50,28 69,39 69,61 50,72 31,61 31,39" stroke="#f7f7f7" stroke-width="2" fill="none"/>
+                        <!-- Inner triangle -->
+                        <polygon points="50,36 61,55 39,55" stroke="#f7f7f7" stroke-width="1.5" fill="none"/>
+                        <!-- Center dot -->
+                        <circle cx="50" cy="49" r="3" fill="#f7f7f7"/>
+                        <!-- Outer connection lines -->
+                        <line x1="50" y1="28" x2="50" y2="20" stroke="#f7f7f7" stroke-width="1" opacity="0.5"/>
+                        <line x1="69" y1="39" x2="76" y2="35" stroke="#f7f7f7" stroke-width="1" opacity="0.5"/>
+                        <line x1="69" y1="61" x2="76" y2="65" stroke="#f7f7f7" stroke-width="1" opacity="0.5"/>
+                        <line x1="50" y1="72" x2="50" y2="80" stroke="#f7f7f7" stroke-width="1" opacity="0.5"/>
+                        <line x1="31" y1="61" x2="24" y2="65" stroke="#f7f7f7" stroke-width="1" opacity="0.5"/>
+                        <line x1="31" y1="39" x2="24" y2="35" stroke="#f7f7f7" stroke-width="1" opacity="0.5"/>
+                    </svg>
+                </div>
             </div>
         </div>
 
